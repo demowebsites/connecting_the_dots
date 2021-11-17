@@ -1,0 +1,325 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  "Montserrat", Sans-serif;
+}
+
+
+
+
+
+.our_team_section{
+    padding:2em;
+    display:grid;
+    grid-template-columns: 1fr;
+   
+    gap:3em;
+}
+.our_team_conto{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap:0.5em;
+    color:#772583;
+   
+    font-style: italic;
+    
+}
+.team_quote{
+    font-weight: 500;
+    font-size: 18px;
+}
+.our_team_heading{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap:1em;
+}
+.our_team_head{
+   
+    color:#772583;
+	align-self: center;
+	justify-self: center;
+}  
+hr{
+    
+   
+    border-radius: 1px;
+    width:10%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+  }
+.our_team_container{
+    display:grid;
+	grid-template-columns: repeat(4,1fr);
+  gap:2em;
+	align-items: center;
+	justify-items: center;
+}
+.teamate_information{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:0.5em;
+}
+.teamate_pic{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.teamate_name{
+    text-align: center;
+    color:#772583;
+    font-weight: 500;
+    font-size: 23px;
+}
+.teamate_designation{
+    text-align: center;
+  color:black;
+  font-size: 20px;
+}
+.teamate_information a {
+    color:#772583;
+    font-size: 26px;
+    justify-self: center;
+    align-self: center;
+    
+  }
+  .teamate_information i {
+    color:#772583;
+    font-size: 26px;
+    justify-self: center;
+    align-self: center;
+    
+  }
+/*media query for team section*/
+
+@media all and (max-width:1000px){
+    .our_team_container{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+      gap:2em;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media all and (max-width:700px){
+    .our_team_container{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+      gap:2em;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+
+
+
+
+/*styling for website committee*/
+.our_team_container_sub{
+   
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:3em;
+}
+.our_team_sub_heading{
+    color:#772583;
+	align-self: center;
+	justify-self: center;
+    
+}
+.teamate_conto{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2em;
+	align-items: center;
+	justify-items: center;
+}
+@media all and (max-width:1000px){
+    .teamate_conto{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:2em;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media all and (max-width:700px){
+    .teamate_conto{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:2em;
+        align-items: center;
+        justify-items: center;
+    }
+}
+.teamate_conto_content{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.single_team{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    gap:3em;
+    padding:2em;
+}
+.contest_team,.Register_team,.Social_media_team,.mc_team{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    gap:1em;
+}
+.single_team_head{
+    color:#772583;
+}
+.single_team_pic{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.single_team__name{
+    text-align: center;
+    color:#772583;
+    font-weight: 500;
+    font-size: 23px;
+}
+.contest_team a,.contest_team i{
+    color:#772583;
+    font-size: 26px;
+    justify-self: center;
+    align-items: center;
+}
+.Register_team a,.Register_team i{
+    color:#772583;
+    font-size: 26px;
+    justify-self: center;
+    align-items: center;
+}
+.Social_media_team a,.Social_media_team i{
+    color:#772583;
+    font-size: 26px;
+    justify-self: center;
+    align-items: center;
+}
+.mc_team a,.mc_team i{
+    color:#772583;
+    font-size: 26px;
+    justify-self: center;
+    align-items: center;
+}
+@media all and (max-width:1000px){
+    .teamate_conto_content{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:2em;
+
+    }
+    .single_team{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        gap:2em;
+    }
+}
+@media all and (max-width:700px){
+    .teamate_conto_content{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:2em;
+    }
+    .single_team{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        gap:2em;
+    }
+}
+footer{
+    background-color: rgba(117,120,123,80%);
+    padding:3em;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:2em;
+  }
+  .social_media_container{
+     display:grid;
+     grid-template-columns: 1fr;
+     gap:1em;
+     align-items: center;
+   justify-items: center;
+     
+  }
+  .social_media{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1em;
+   
+  }
+  .facebook,.instagram,.linkedIn{
+    background-color: #772583;
+    
+    border:1px solid rgba(225,225,225,0.8);
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .facebook:hover,.instagram:hover,.linkedIn:hover{
+    background-color: transparent;
+  }
+  .fa{
+   font-weight: 700;
+    color:#ffffff;
+  }
+  
+  .social_links a{
+    font-weight: 700;
+   text-decoration: none;
+   color:#772583;
+    font-size: 16px;
+    text-align: center;
+  }
+  .social_links a:hover{
+    color:#772583;
+  }
+  @media all and (max-width:700px){
+    footer{
+      background-color: rgba(117,120,123,80%);
+      padding:1em;
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  .copyright_container{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+  #btnscrolltotop{
+    z-index: 1;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(119,37,131,100%);
+  }

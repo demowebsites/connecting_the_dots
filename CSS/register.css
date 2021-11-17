@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  "Montserrat", Sans-serif;
+}
+.contest_registration_container{
+    padding:3em;
+}
+.contest_registration_section{
+    padding:2em;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:1em;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.about_contest_section{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:0.5em;
+}
+.about_contest_section h2{
+    color: #772583;
+    font-size:25px;
+}
+.contest_eligibility h2{
+    color: #772583;
+    font-size:25px;
+}
+.contest_eligibility p{
+    color: #772583;
+    text-align: justify;
+}
+.contest_eligibility ul{
+    margin:0.5em;
+    padding:0.5em;
+    text-align: justify;
+}
+.button-55 {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    border-color: #772583;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .95rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+  }
+  .contest_button{
+    
+     gap:1em;
+  }
+  .contest_button a{
+    
+    text-decoration: none;
+   color:black; 
+ }
+ .contest_button a:hover{
+    
+ 
+ color:black; 
+}
+.contest_button a:visited{
+    
+ 
+  color:black; 
+ }
+  @media all and (max-width:900px){
+    .contest_registration_container{
+        padding:2em;
+    }
+    .contest_registration_section{
+        padding:1em;
+    }
+    @media all and (max-width:450px){
+        .contest_registration_container{
+            padding:1em;
+        }
+        .contest_registration_section{
+            padding:0.9em;
+        }
+        .contest_button{
+            display:grid;
+   
+          
+            grid-template-columns: 1fr;
+        }
+    }
+  }
+  
+  footer{
+    background-color: rgba(117,120,123,80%);
+    padding:3em;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap:2em;
+  }
+  .social_media_container{
+     display:grid;
+     grid-template-columns: 1fr;
+     gap:1em;
+     align-items: center;
+   justify-items: center;
+     
+  }
+  .social_media{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1em;
+   
+  }
+  .facebook,.instagram,.linkedIn{
+    background-color: #772583;
+    
+    border:1px solid rgba(225,225,225,0.8);
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .facebook:hover,.instagram:hover,.linkedIn:hover{
+    background-color: transparent;
+  }
+  .fa{
+   font-weight: 700;
+    color:#ffffff;
+  }
+  
+  .social_links a{
+    font-weight: 700;
+   text-decoration: none;
+   color:#772583;
+    font-size: 16px;
+    text-align: center;
+  }
+  .social_links a:hover{
+    color:#772583;
+  }
+  @media all and (max-width:700px){
+    footer{
+      background-color: rgba(117,120,123,80%);
+      padding:1em;
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  .copyright_container{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #btnscrolltotop{
+    z-index: 1;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(119,37,131,100%);
+  } 
